@@ -14,22 +14,22 @@ cask "git-sandwich" do
   on_macos do
     on_intel do
       url "https://github.com/n0h0/git-sandwich/releases/download/v#{version}/git-sandwich_#{version}_darwin_amd64.tar.gz"
-      sha256 "bf7285a6121b39313ff4b0d32f2582ac210c497eeecf76f152482cc455468e55"
+      sha256 "f8030f47d4e570e18df0ac96b088247fb29e58811a92a0fd63801ec8ae1e7113"
     end
     on_arm do
       url "https://github.com/n0h0/git-sandwich/releases/download/v#{version}/git-sandwich_#{version}_darwin_arm64.tar.gz"
-      sha256 "bdf763a0e821337087b9491d85a76d7eeeaa944e6ec6ecde6016b098e3754ada"
+      sha256 "bf1b7b46c119779eb2a0c837d87cfe87d9652eb4aa35ff660f14ebc4f12c6ce0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/n0h0/git-sandwich/releases/download/v#{version}/git-sandwich_#{version}_linux_amd64.tar.gz"
-      sha256 "d676ca7a3d469bf5cdcb6dda3dce4d9a40fd64a044a0f056213158719878f0ab"
+      sha256 "e96b1144a96751ddbf9fc46826e7ef21a23eb4a8deec86d2ed3d801dc22d7a67"
     end
     on_arm do
       url "https://github.com/n0h0/git-sandwich/releases/download/v#{version}/git-sandwich_#{version}_linux_arm64.tar.gz"
-      sha256 "f826d74ef573f10a5fc8b3ec6541dd384de110103978ee4dac6c1e56f8a2e875"
+      sha256 "2e61c79c3c9e555a2f72ff4e9a6cf9a222f81f793d11f54ae1eb45b350330533"
     end
   end
 
