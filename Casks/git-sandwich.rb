@@ -3,7 +3,7 @@ cask "git-sandwich" do
   name "git-sandwich"
   desc "A Git diff validator that rejects changes outside BEGIN/END blocks"
   homepage "https://github.com/n0h0/git-sandwich"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "git-sandwich" do
   on_macos do
     on_intel do
       url "https://github.com/n0h0/git-sandwich/releases/download/v#{version}/git-sandwich_#{version}_darwin_amd64.tar.gz"
-      sha256 "4419cd654034e1916b0cf4d09123758019e5997ab45b17deebaf9100d640ebd8"
+      sha256 "bf7285a6121b39313ff4b0d32f2582ac210c497eeecf76f152482cc455468e55"
     end
     on_arm do
       url "https://github.com/n0h0/git-sandwich/releases/download/v#{version}/git-sandwich_#{version}_darwin_arm64.tar.gz"
-      sha256 "70962cdd0bb11f841338934d519193ee1705e6a7c740f71315e2d479470688b9"
+      sha256 "bdf763a0e821337087b9491d85a76d7eeeaa944e6ec6ecde6016b098e3754ada"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/n0h0/git-sandwich/releases/download/v#{version}/git-sandwich_#{version}_linux_amd64.tar.gz"
-      sha256 "edb55dc3499c0851ba124c5fb5d4e1767fb0d0f515633c2c6cfc4234be9fb482"
+      sha256 "d676ca7a3d469bf5cdcb6dda3dce4d9a40fd64a044a0f056213158719878f0ab"
     end
     on_arm do
       url "https://github.com/n0h0/git-sandwich/releases/download/v#{version}/git-sandwich_#{version}_linux_arm64.tar.gz"
-      sha256 "13da8f6e74b419a3cd59ac93c794dbecbaa5698c016a34fc52caaf34729d8724"
+      sha256 "f826d74ef573f10a5fc8b3ec6541dd384de110103978ee4dac6c1e56f8a2e875"
     end
   end
 
